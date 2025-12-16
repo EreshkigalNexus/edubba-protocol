@@ -66,8 +66,8 @@ node = MemoryNode(
 )
 
 print(f"Node ID: {node.id}")
-print(f"Audit Hash: {node.provenance.integrity_hash}")```
-
+print(f"Audit Hash: {node.provenance.integrity_hash}")
+```
 ---
 
 ## Terminology Mapping
