@@ -31,7 +31,7 @@ Captures the agent's internal homeostatic state at the moment of memory formatio
 Truth is not assumed; it is verified. Each memory node includes a cryptographic audit trail of its establishment:
 *   **Contributors:** Logs the specific models (e.g., DeepSeek-R1, Llama-3) involved.
 *   **Roles:** Distinguishes between `proposer`, `critic`, `synthesizer`, and `human_oracle`.
-*   **Integrity:** A SHA-256 hash ensures the consensus event is immutable.
+*   **Integrity:** A SHA3-256 hash ensures the consensus event is immutable.
 
 ### 4. Hardware-Enforced Audit (`DataClassification`)
 Memories marked `RESTRICTED` trigger a specialized `diode_packet` computed field. This packet is formatted for transmission across unidirectional serial hardware (**Optical Data Diodes**), ensuring an immutable audit trail even if the primary index is compromised.
